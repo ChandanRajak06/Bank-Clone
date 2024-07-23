@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: white; */
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navContainer{
+    height: 64px;
+}
+.navBar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232F3E;
+}
+
+.navBar a{
+    margin: 20px;
+    font-size: 15px;
+    color: white;
+}
+.navBar span{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(134, 133, 133, 0.411);
+}
+.navBar i{
+    font-size: 14px;
+}
+.navBar select{
+    width:20px;
+}
+
+/* Second Box */
+
+.secondBox{
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secondNav{
+    margin:30px 0px 0px 0px ;
+}
+
+.secondNav a{
+    margin: 10px;
+    color: #232F3E;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.secondNav select{
+    background-color: transparent; 
+    border: none;
+    margin-left: -40px;
+}
+
+.secondNav button{
+    height: 30px;
+    width: 180px;
+    background-color: #0075BE;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.text-animate{
+    height: 40px;
+    background-color: #0075BE;
+    text-align: center;    
+}
+.text-animate marquee{
+    font-size: 14px;
+    font-weight: 500;
+    color:white;
+    margin-top:12px;
+}
+
+
+.thirdBox{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.thirdTitleOne{
+    font-size: 20px;
+    font-weight: 600;
+    color:#333333;
+}
+.thirdTitleTwo{
+    font-size: 45px;
+    font-weight: 800;
+    color:#0075BE;
+}
+.thirdTitleThird{
+    color:#333333;
+}
+.thirdImg{
+    height: 450px;
+}
+
+.thirdImg img{
+    height: 100%;
+    border-bottom-right-radius: 80px;
+}
+
+.thirdBtn button{
+    display: block;
+    font-size: 20px;
+    font-weight:lighter;
+    height: 50px;
+    width: 50px;
+    background-color: #0075BE;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.thirdBtn button:hover{
+    transform: scale(1.1);
+    transition: .2s ease;
+}
